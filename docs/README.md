@@ -4,11 +4,6 @@ Powered by
 
 [![UCPH](./images/ucph.jpg)](https://www.ku.dk/en)
 
-| Project Links |
-| ------------- | 	
-| Software GitHub Repository --> Compresso Tool <https://github.com/DATAPACT/compresso> | //use to refer to external repositories
-| Progress GitHub Project [ADD URL] |
-
 ## **General Description**
 Compresso functions as an analytical instrument designed to operationalize Minimal Finite Covering (MFC) as a rigorous mathematical framework for dataset condensation. Unlike conventional dataset distillation techniques that often prioritize empirical accuracy at the expense of adversarial stability, this tool enforces a robustness-aware methodology by identifying a discrete skeleton that constitutes an epsilon-covering of the high-dimensional data manifold. By focusing on the geometric properties of the data distribution, Compresso ensures that models trained on the resulting condensed subset optimize a provable lower bound of the generalized adversarial loss, thereby providing theoretical guarantees that are frequently absent in heuristic condensation methods.
 
