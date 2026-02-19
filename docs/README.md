@@ -34,9 +34,9 @@ The software is developed and maintained by UCPH and is distributed as an Open S
 ## **Expected KPIs**
 The evaluation framework quantifies the algorithmic success in balancing dataset sparsity with model fidelity. The specific performance benchmarks and optimization targets are detailed below:
 
-| Optimization Objective | Target Benchmark |
-| :--- | :--- |
-| **Resource-Robustness Ratio** | Reduction in computational resource consumption by 50% while maintaining a <5% degradation in robust accuracy relative to the full dataset baseline. |
+| Optimization Objective | | Target Benchmark |
+| :--- | :--- | :--- |
+| Trade-off between efficiency (data budget), performance (ex: accuracy), and robustness (adversarial perturbation)	| Accuracy, efficiency (resource consumption), and robustness (adversarial accuracy)	| Reduction in resource consumption by 50% with <5% drop in robust accuracy |
 
 ## **Related Project Links**
 The source code and documentation are hosted on the Compresso GitHub repository at https://github.com/saintslab/compresso.
